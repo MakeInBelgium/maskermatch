@@ -45,6 +45,7 @@ De Maskermatch is vervolgens bereikbaar op `http://localhost:8000`
 ## met docker
 Gebruik de `Dockerfile` om een image te builden. Zie `docker-run.sh` voor een voorbeeld van hoe het in productie wordt gedraaid. Hiervoor gebruiken we een set-up met Traefik, voor de config, zie de repository van [solidariteitsnetwerk](https://github.com/MakeInBelgium/solidariteitsnetwerk/tree/master/deployment).
 
+Je kan ook docker-compose gebruiken door `docker-compose up` te runnen in de root van de repository
 
 # CSS
 De css wordt gegenereerd met bootstrap in de npm dependencies, dit kan via het commando `npm ci`. Vervolgens kan je in de map `assets/css` met [SCSS](https://sass-lang.com/) de SCSS converteren naar CSS:
